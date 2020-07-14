@@ -1,4 +1,4 @@
-<h1 align="center"> easemod </h1>
+<h1 align="center"> easemob </h1>
 
 <p align="center"> .</p>
 
@@ -6,7 +6,7 @@
 ## Installing
 
 ```shell
-$ composer require flyrory/easemod -vvv
+$ composer require flyrory/easemob -vvv
 ```
 
 ## Usage
@@ -17,8 +17,8 @@ TODO
 
 You can contribute in one of three ways:
 
-1. File bug reports using the [issue tracker](https://github.com/flyrory/easemod/issues).
-2. Answer questions or fix bugs on the [issue tracker](https://github.com/flyrory/easemod/issues).
+1. File bug reports using the [issue tracker](https://github.com/flyrory/easemob/issues).
+2. Answer questions or fix bugs on the [issue tracker](https://github.com/flyrory/easemob/issues).
 3. Contribute new features or update the wiki.
 
 _The code contribution process is not very formal. You just need to make sure that you follow the PSR-0, PSR-1, and PSR-2 coding guidelines. Any new code contributions must be accompanied by unit tests where applicable._
@@ -26,3 +26,5 @@ _The code contribution process is not very formal. You just need to make sure th
 ## License
 
 MIT
+
+感谢 [link1st](https://github.com/link1st) 

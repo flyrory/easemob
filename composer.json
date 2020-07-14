@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Flyrory\\Easemob\\ServiceProvider"
+                "Flyrory\\Easemob\\EasemobServiceProvider"
             ]
         }
     }
