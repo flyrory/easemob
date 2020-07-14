@@ -1,7 +1,35 @@
 {
+    "name":"flyrory/easemob",
+    "description": "环信即时通讯laravel包，环信用户、群组、聊天室等",
+    "keywords": [
+        "flyrory",
+        "laravel",
+        "easemob"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "flyrory",
+            "email": "chenjian@chjgo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
     "autoload": {
         "psr-4": {
-            "Flyrory\\Easemod\\": "src"
+            "Flyrory\\Easemob\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Flyrory\\Easemob\\ServiceProvider"
+            ]
         }
     }
 }
