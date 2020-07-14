@@ -1,7 +1,7 @@
 <?php
 namespace Flyrory\Easemob\App;
 
-use Cache;
+use \Illuminate\Support\Facades\Cache;
 
 
 class Http
@@ -18,7 +18,7 @@ class Http
      * @param bool   $is_json [返回数据是否是json 下载文件的时候用到]
      *
      * @return mixed
-     * @throws EasemobError
+     * @throws EasemobException
      */
     public static function postCurl($url, $option, $header = 0, $type = 'POST',$setopt = 10, $is_json = true) {
         $curl = curl_init (); // 启动一个CURL会话
@@ -60,7 +60,7 @@ class Http
             }else{
                 $error_message = '请求错误!' ;
             }
-            throw new EasemobError($error_message,$status);
+            throw new EasemobException($error_message,$status);
         }
 
         // 在下载文件的时候 不是json
