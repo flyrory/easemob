@@ -26,7 +26,7 @@ class EasemobServiceProvider extends ServiceProvider
 
         // 发布配置文件 + 可以发布迁移文件
         $this->publishes([
-            __DIR__.'/config/easemob.php' => config_path('easemob.php'),
+            __DIR__.'/Config/easemob.php' => config_path('easemob.php'),
         ]);
 
     }
@@ -42,7 +42,7 @@ class EasemobServiceProvider extends ServiceProvider
     {
         // 将给定配置文件合现配置文件接合
         $this->mergeConfigFrom(
-            __DIR__.'/config/easemob.php', 'easemob'
+            __DIR__.'/Config/easemob.php', 'easemob'
         );
 
         // 容器绑定
